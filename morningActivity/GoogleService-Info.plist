@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>963076711461-2913bus08m34fgdq1mq84bf12pulv1tp.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.963076711461-2913bus08m34fgdq1mq84bf12pulv1tp</string>
+	<key>API_KEY</key>
+	<string>AIzaSyABEEHkWj2rYL6SKVZZ-O_ui9f_CB_COFg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>963076711461</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.gmail.Tashiro.Shinsaku.morningActivity</string>
+	<key>PROJECT_ID</key>
+	<string>morningactivity-2e28c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>morningactivity-2e28c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:963076711461:ios:9e3e073a7c5a7509960bcc</string>
+	<key>DATABASE_URL</key>
+	<string>https://morningactivity-2e28c.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="j07-4z-Ce7">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="morningActivity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oyh-9e-dXM">
+                                <rect key="frame" x="20" y="183" width="368" height="679"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                                </accessibility>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="W9m-QZ-PHL">
+                                <rect key="frame" x="20" y="340" width="374" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">朝の時間を有効活用したい人が、
+Twitterと連携して、
+朝活を習慣づけるためのアプリ。
+</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="アサカツ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSC-Xe-sNO">
+                                <rect key="frame" x="20" y="88" width="368" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDK-pL-whR">
+                                <rect key="frame" x="149" y="580" width="123" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Twitterログイン"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4gR-0M-ClF"/>
+                    <connections>
+                        <outlet property="loginButton" destination="fDK-pL-whR" id="3hC-rO-cMy"/>
+                        <outlet property="titleImage" destination="oyh-9e-dXM" id="u3i-oz-9pl"/>
+                        <outlet property="titleLabel" destination="lSC-Xe-sNO" id="Tqy-aV-7Wy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860.86956521739137" y="122.54464285714285"/>
+        </scene>
+        <!--Term View Controller-->
+        <scene sceneID="SUB-35-beo">
+            <objects>
+                <viewController storyboardIdentifier="TermViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4aQ-LB-eXr" customClass="TermViewController" customModule="morningActivity" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PS0-SB-gfL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="KwV-cs-6pv">
+                                <rect key="frame" x="20" y="169" width="374" height="552"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <string key="text">この利用規約（以下、「本規約」といいます。）は，このウェブサイト上で提供するサービス（以下，「本サービス」といいます。）の利用条件を定めるものです。登録ユーザーの皆さま（以下，「ユーザー」といいます。）には，本規約に従って，本サービスをご利用いただきます。
+
+第1条(適用)
+本規約は、ユーザーと本サービス運営者との間の本サービスの利用に関わる一切の関係に適用されるものとします。
+
+第2条(利用登録)
+1. 登録希望者が本サービスの定める方法によって利用登録を申請し，本サービス運営者がこれを承認することによって，利用登録が完了するものとします。
+2. 本サービスは，TwitterAPIを利用した認証による利用登録を採用しています。本サービスの仕様上，ユーザーのTwitterアカウントが非公開アカウントの場合，本サービスの利用ができない仕様となっておりますので，あらかじめご了承ください。
+
+第3条(ユーザー情報の利用目的)
+本サービスは，ユーザーのTwitterアカウントに関して，以下の情報を取得します。
+(1) TwitterID(ユーザーに一意で付与される数字の羅列のデータ)(例. 99999999999999)
+(2) Twitter上の名前(例. しんさく@社内唯一のエンジニア)
+(3) Twitter上のプロフィールアイコン
+(4) Twitter上のアクセストークン、シークレットトークン
+(1)、(2)、(3)は、本サービスにおけるプロフィールとしての目的で利用する情報です。(4)はユーザーが設定した朝活予定日に対して、日本時間で午前0時〜12時の間にスタートボタンを押下しない場合に自動ツイート機能として使用します。
+
+第4条(禁止事項)
+ユーザーは、本サービスの利用にあたり，以下の行為をしてはなりません。
+(1) 法令または公序良俗に反する行為
+(2) 犯罪行為に関連する行為
+(3) 本サービスのサーバーまたはネットワークの機能を破壊したり，妨害したりする行為
+(4) 本サービスの運営を妨害するおそれのある行為
+(5) 他のユーザーに関する個人情報等を収集または蓄積する行為
+(6) 他のユーザーに成りすます行為
+(7) 本サービスに関連して，反社会的勢力に対して直接または間接に利益を供与する行為
+(8) その他，本サービスの運営者が不適切と判断する行為
+
+第5条(本サービスの提供の停止等)
+1. 本サービスの運営者は，以下のいずれかの事由があると判断した場合，ユーザーに事前に通知することなく本サービスの全部または一部の提供を停止または中断することができるものとします。 (1) 本サービスにかかるコンピュータシステムの保守点検または更新を行う場合
+(2) 地震，落雷，火災，停電または天災などの不可抗力により，本サービスの提供が困難となった場合
+(3) コンピュータまたは通信回線等が事故により停止した場合
+(4) その他，本サービスの運営者が本サービスの提供が困難と判断した場合
+2. 本サービスの運営者は，本サービスの提供の停止または中断により，ユーザーまたは第三者が被ったいかなる不利益または損害について，理由を問わず一切の責任を負わないものとします。
+
+第6条(利用制限および登録抹消)
+1. 本サービスの運営者は，以下の場合には，事前の通知なく，ユーザーに対して，本サービスの全部もしくは一部の利用を制限し，またはユーザーとしての登録を抹消することができるものとします。(1) 本規約のいずれかの条項に違反した場合(2) その他，当社が本サービスの利用を適当でないと判断した場合2. 本サービスの運営者は，本条に基づき本サービスの運営者が行った行為によりユーザーに生じた損害について，一切の責任を負いません。
+
+第7条(免責事項)
+本サービスの運営者は，本サービスに関して，ユーザーと他のユーザーまたは第三者との間において生じた取引，連絡または紛争等について一切責任を負いません。
+
+第8条(サービス内容の変更等)
+本サービスの運営者は，ユーザーに通知することなく，本サービスの内容を変更しまたは本サービスの提供を中止することができるものとし，これによってユーザーに生じた損害について一切の責任を負いません。
+
+第9条(利用規約の変更)
+本サービスの運営者は，必要と判断した場合には，ユーザーに通知することなくいつでも本規約を変更することができるものとします。</string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="利用規約" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytb-yh-91S">
+                                <rect key="frame" x="133" y="94" width="148" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vJ9-NI-J7B">
+                                <rect key="frame" x="264" y="805" width="86" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="次へ"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6li-IP-HKt">
+                                <rect key="frame" x="20" y="763" width="374" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="同意する" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jKb-BW-8Ee">
+                                <rect key="frame" x="76" y="816" width="120" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="Fus-F2-EyB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kBi-Pc-oec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1715.9420289855075" y="122.54464285714285"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hBZ-cW-7BT">
+            <objects>
+                <viewController id="s4a-bN-swx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0tu-02-mIE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="寝顔設定" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7o6-Fx-rBb">
+                                <rect key="frame" x="158" y="89" width="98" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r7o-IN-pSs">
+                                <rect key="frame" x="20" y="158" width="374" height="704"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="SCv-6J-11U"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="j5z-ZR-VjZ"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="alo-cC-gYj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z7e-iR-MQH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2512" y="123"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="8pz-ja-o1v">
+            <objects>
+                <viewController id="R7x-mp-pBV" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="44U-b5-4Pb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="h1g-ji-GGY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="hLe-YM-q91"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vmv-Rj-rJQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="1718"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="7wt-JQ-4Mp">
+            <objects>
+                <viewController id="pbQ-xm-k4F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fE7-nt-eoK">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fOX-av-Fce"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="trH-Bu-aAz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OJG-IG-sWD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49" y="1718"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ltf-oG-qSx">
+            <objects>
+                <tabBarController id="YOx-Mj-3nZ" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hvW-Pa-9ij">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="pbQ-xm-k4F" kind="relationship" relationship="viewControllers" id="WpZ-j3-GrV"/>
+                        <segue destination="R7x-mp-pBV" kind="relationship" relationship="viewControllers" id="qvf-Tq-Qmh"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V7W-rn-IEo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="1014"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="B3Y-KX-vbb">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="j07-4z-Ce7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fEC-y3-trE">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="wdk-4D-QQ4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oj8-Lz-ktA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-49.275362318840585" y="122.54464285714285"/>
+        </scene>
+    </scenes>
+</document>
